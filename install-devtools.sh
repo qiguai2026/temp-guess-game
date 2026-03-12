@@ -1,0 +1,28 @@
+#!/bin/bash
+# 微信开发者工具安装脚本 (macOS)
+
+echo "=========================================="
+echo "微信开发者工具安装助手"
+echo "=========================================="
+echo ""
+
+echo "请按以下步骤安装微信开发者工具："
+echo ""
+echo "1. 访问官方下载页面:"
+echo "   https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html"
+echo ""
+echo "2. 下载 macOS 版本的微信开发者工具"
+echo ""
+echo "3. 双击下载的 .dmg 文件，将微信开发者工具拖到 Applications 文件夹"
+echo ""
+echo "4. 打开微信开发者工具，使用微信扫码登录"
+echo ""
+echo "5. 点击'小游戏'项目，选择导入项目"
+echo ""
+echo "6. 选择项目目录: $(pwd)/../temp-guess-wx"
+echo ""
+echo "7. AppID 可以暂时使用测试号，或填写: wxgame-temp-guess"
+echo ""
+echo "=========================================="
+echo "项目已准备就绪，路径: $(pwd)/../temp-guess-wx"
+echo "=========================================="
